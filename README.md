@@ -1,6 +1,5 @@
 ---
 input YAML Front Matter
-
 ---
 
 test markdown file format with data sturcture learning 
@@ -52,8 +51,8 @@ o u x 有序 无需 选择
 - 啊正确性
   - 啊
     - 啊
-      - 啊
-        - 啊  
+       - 啊
+           - 啊  
 
 - [x] 高效率与低存储量需求
 
@@ -67,7 +66,6 @@ o u x 有序 无需 选择
 - ## 时间复杂度
 
 ewrewes是[^demo]: 斤斤计较
-
 [^demo]: 这是一个示例脚注。请查阅 [ 文档]
 
 [链接引用L]: www.baidu.com	" 标题"
@@ -126,13 +124,9 @@ int main(){
   
 
 - <u>正常还款</u>
-
 - <u>逾期还款</u>
-
 - ***提前结清***
-
 - ***正常结清***
-
 - ***提前还款***（部分本金）
 
 - [x] 正常结清
@@ -171,6 +165,7 @@ int main(){
 
 - \log_ax
 
+分开
 
 
 $$
@@ -178,6 +173,8 @@ O(1)<O\log_2n<O(n)<0(n\log_2n)<O(n^2)<O(n^3)<O(2^n)<O(n!)<O(n^n)
 $$
 
 
+
+分开
 
 ***常对幂指阶***
 $$
