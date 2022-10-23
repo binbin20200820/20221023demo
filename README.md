@@ -159,13 +159,16 @@ int main(){
 
   
 
-- \lim_{x \to ∞}{f(x)}
+- ```javascript
+  - \lim_{x \to ∞}{f(x)}
+  
+  - \frac{Tn}{f(n)}
+  
+  - \log_ax
+  ```
 
-- \frac{Tn}{f(n)}
 
-- \log_ax
 
-分开
 
 
 
