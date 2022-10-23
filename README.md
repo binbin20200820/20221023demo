@@ -151,7 +151,7 @@ int main(){
 
 - $$ 
   T(n)=O({f(n)})<=>\lim_{x \to ∞}{f(x)} \frac{Tn}{f(n)}=k
-  $$
+  $$ 
 
 - $$
   这里记录一下源代码O(f(n))  按opt 、cmd、 c 加公式
