@@ -1,81 +1,195 @@
-# 数据结构与typora软件学习
+---
+input YAML Front Matter
+---
 
-# idea快捷键
+test markdown file format with data sturcture learning 
 
-cmd shift ⬆️ 方法上移 光标位于方法前面
 
-opt shift ⬆️ ⬇️ 换行
 
-cmd d复制行
+数据类型是一个值的集合和定义
 
-cmd back 删除行
+```c
+struct Coordinate{
 
-cmd - 或 = 收起 展开方法。cmd shift - 或= 收起展开所有方法
+	int x;
+  int y;
 
-<u>cmd opt t  代码块包围 try catch 等。</u>
+}
+```
 
-<u>cmd shift del（不是backspace）解除包围代码块。</u>
+- [ ] 原子类型 其值不可再分的数据类型
 
-control g 选择匹配项目 td td 两端这种 shift 取消 选几个改几个
+- 结构类型。其值不可以再分解为若干成分的数据类型
 
-cmd control g 选择所有匹配项目 一起修改. ***esc取消* **
+o u x 有序 无需 选择
 
-control shift space。只能补全 return 
+1. 抽象数据类型 是抽象数据组织及与之相关的操作
+2. abstract data type 
+   - 逻辑结构运算
 
-圆括号好后面加点。.
 
-cmd shift enter ***补全***for if 语句
 
-control space 查看补全建议 tab替换全部
+- # 什么是算法
 
-Shift f6 重命名 
+## 程序=数据结构+算法
 
-cmd opt v 替换变量名字 一起修改
+### 求解问题的步骤
 
-cmd opt m 提取方法。鸡尾酒排序
+- 有穷性，一个算法必须总在执行有穷步之后结束，且每一步都可以在有穷时间内完成。
+- 确定性，相同输入只能得到相同的输出
 
-ctrl T 重构  
+- 可行性，输入取自于某个特定的对象的集合 输出一个多个 有某种特定关系的量
+- 输入
+- 输出
 
-cmd opt l。选 不选格式化全部  cmd shift opt l   自定义怎么格式化
+### 好算法
 
-Cmd p 显示方法签名
+- [x] 可读性
 
-opt space 查看符号定义
+- [x] 健壮性
 
-F1看方法 相当于鼠标悬停
+- 啊正确性
+  - 啊
+    - 啊
+       - 啊
+           - 啊  
 
-F2找到下一个高亮错误
+- [x] 高效率与低存储量需求
 
-Opt enter 添加异常
+1. 时间复杂度低   
+2. 空间复杂度低
 
-Cmd f1 简要说明 两次 展开说明
 
-opt shift enter 将参数替换为空数组
 
-cmd shift f7  标出所有引用 ctrl f
+## 算法效率的度量
 
-Cmd shift r 替换
+- ## 时间复杂度
 
-cmd shift f 查找 
+ewrewes是[^demo]: 斤斤计较
+[^demo]: 这是一个示例脚注。请查阅 [ 文档]
 
-cmd F12打开文件结构。 Cmd 7变成窗口
+[链接引用L]: www.baidu.com	" 标题"
 
-cmd B 跳转到方法声明 再按一次 任选一种用法。***往前找***
+[链接]: https://www.baidu.com	"可选的"
 
-opt f7 查看更详细的<u>用法视图</u> 先固定  shift esc 隐藏。cmd 3 再次打开
+[^这还是]: 
+[^Zzhe]: 脚注
 
-cmd opt b 查找实现 ***往后找***
+**事前预估**算法***时间开销T***（n）与**问题规模**n的关系
 
-cmd e
+T(n)[^这还是]
 
-cmd shift e 寻找最近浏览过的代码
+[^这还是]: 链接引用不太好使
 
-断点 cmd f8
+T表示time [^zzhr]
 
-ctrl d 调试
+[^zzhr]: 就是你了
 
-cmd opt f8 快速求值表达式
+<img src="./img/lal.jpg" alt="替代文字" style="zoom:75%;" />
 
-cmd f9 构建。热加载
+------
 
-要比较任意两个文件或文件夹，请在 项目 工具窗口中将其选中，然后按 ⌘D
+------
+
+$$
+hola
+$$
+
+```c
+void loveYou(int n)	{
+  int i = 1;
+  while(i<=n){
+    i++;
+    print("ilu %d\n",i);
+    
+  }
+  printlf("ilymore than %d\n",n );
+}
+
+int main(){
+  loveYou(3000);
+}
+```
+
+> > 引用是
+> >
+> > > typora引用功能
+>
+> 
+
+**T（n)=3n+3**
+
+
+
+  
+
+- <u>正常还款</u>
+- <u>逾期还款</u>
+- ***提前结清***
+- ***正常结清***
+- ***提前还款***（部分本金）
+
+- [x] 正常结清
+
+- [ ] 逾期
+
+- [x] 部分提前还款
+
+- [x] 提前结清
+
+- [ ] 未到期[^qvcd]
+
+  [^qvcd]: 这也是个脚注 opt cmd ➕r
+
+  
+
+  - 键盘太黏了 700多键盘太贵
+
+  
+
+- 结论：可以考虑高阶多部分
+
+- $$
+  T(n)=O({f(n)})<=>\lim_{x \to ∞}{f(x)} \frac{Tn}{f(n)}=k
+  $$
+
+- $$
+  这里记录一下源代码O(f(n))  按opt 、cmd、 c 加公式
+  $$
+
+  
+
+- ```javascript
+  - \lim_{x \to ∞}{f(x)}
+  
+  - \frac{Tn}{f(n)}
+  
+  - \log_ax
+  ```
+
+
+
+
+
+
+- $$
+  {O(1)}<{O\log_2n}<{O(n)}<{0(n\log_2n)}<{O(n^2)}<{O(n^3)}<{O(2^n)}<{O(n!)}<{O(n^n)}
+  $$
+
+  
+
+
+
+
+***常对幂指阶***
+
+
+
+
+
+
+
+
+
+
+
