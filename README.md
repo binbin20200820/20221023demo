@@ -172,18 +172,6 @@ int main(){
 - $$
   O(1)<O\log_2n<O(n)<0(n\log_2n)<O(n^2)<O(n^3)<O(2^n)<O(n!)<O(n^n)
   $$
-  
-
-
-- $$
-  O(1)<O\log_2n<O(n)<0(n\log_2n)
-  $$
-  
-  
-  
-- $$
-  <O(n^2)<O(n^3)<O(2^n)<O(n!)<O(n^n)
-  $$
 
   
 
